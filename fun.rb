@@ -1,4 +1,4 @@
-class alifun < Formula
+class Fun < Formula
   desc "Fun is a development tool for serverless applications of aliyun."
   homepage "https://github.com/alibaba/funcraft"
   version "3.6.21"
@@ -7,7 +7,7 @@ class alifun < Formula
 
 
   def install
-    bin.install "fun-v#{version}-macos" => "alifun"
+    bin.install "fun-v#{version}-macos" => "fun"
   end
 
   test do
