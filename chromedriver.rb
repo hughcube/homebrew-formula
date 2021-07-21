@@ -1,4 +1,4 @@
-cask "chromedriver" do
+class chromedriver < Formula
   version "92.0.4515.43"
 
   if Hardware::CPU.intel?
