@@ -4,16 +4,7 @@ class SeleniumServerStandalone < Formula
   url "https://selenium-release.storage.googleapis.com/4.0-beta-4/selenium-server-4.0.0-beta-4.jar"
   sha256 "4cbd0f5dfa425e0e11c466c45cfd503d9249e8fceb0e425f3adab849655437e0"
   license "Apache-2.0"
-  revision 2
-
-  livecheck do
-    url "https://www.selenium.dev/downloads/"
-    regex(/href=.*?selenium-server-standalone[._-]v?(\d+(?:\.\d+)+)\.jar/i)
-  end
-
-  bottle do
-    sha256 cellar: :any_skip_relocation, all: "5a2d805f6a197441039bd29d284192ecefefdd4e5bc3e84395a87ce19705dc4c"
-  end
+  version "4.0.0"
 
   depends_on "openjdk"
 
