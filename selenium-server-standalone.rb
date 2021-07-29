@@ -9,7 +9,7 @@ class SeleniumServerStandalone < Formula
   depends_on "openjdk"
 
   def install
-    libexec.install "selenium-server-standalone-#{version}.jar"
+    libexec.install "selenium-server-#{version}.jar"
     bin.write_jar_script libexec/"selenium-server-#{version}.jar", "selenium-server"
   end
 
