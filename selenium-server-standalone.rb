@@ -10,7 +10,7 @@ class SeleniumServerStandalone < Formula
 
   def install
     libexec.install "selenium-server-#{version}.jar"
-    bin.write_jar_script libexec/"selenium-server-#{version}.jar", "selenium-server"
+    bin.write_jar_script libexec/"selenium-server-#{version}.jar", "selenium-server", "--ext example.jar:dir standalone --port 4444"
   end
 
   plist_options manual: "selenium-server -port 4444"
