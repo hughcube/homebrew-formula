@@ -1,4 +1,4 @@
-class AliFlow < Formula
+class Aliflow < Formula
   desc "Flow is a development tool for serverless applications of aliyun."
   homepage "https://help.aliyun.com/document_detail/153811.html?spm=a2cl9.flow_devops2020_goldlog_detail.0.0.6d40680f3OHhIJ"
   version "0.0.6"
