@@ -1,9 +1,9 @@
 class Ossutil < Formula
     desc "The command line interface of oss of aliyun."
     homepage "https://github.com/aliyun/ossutil"
-    version "1.7.5"
+    version "1.7.9"
     url "http://gosspublic.alicdn.com/ossutil/#{version}/ossutilmac64"
-    sha256 "a86c7823c8b21cd3d8f0663a195fe48c3d231ab8c9807927f193e15383a94462"
+    sha256 "e04e80bce99f47f92c348ecda5703468ab2d99ec655e7aaf8bdd38dfe4c1fa98"
 
 
     def install
