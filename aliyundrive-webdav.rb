@@ -7,7 +7,7 @@ class AliYunDriveWebdav < Formula
 
 
   def install
-    bin.install "aliyundrive" => "aliyundrive"
+    bin.install "aliyundrive-webdav" => "aliyundrive-webdav"
   end
 
   test do
