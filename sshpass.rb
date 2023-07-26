@@ -1,4 +1,4 @@
-class Qrcp < Formula
+class Sshpass < Formula
 
   desc "ssh 免密码"
   homepage "https://github.com/hughcube/sshpass"
