@@ -7,7 +7,7 @@ class Aliflow < Formula
 
 
   def install
-    bin.install "darwin_arm64_flow_cli" => "aliflow"
+    bin.install "darwin_amd64_flow_cli" => "aliflow"
   end
 
   test do
