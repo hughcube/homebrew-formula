@@ -1,4 +1,4 @@
-class Sshpass < Formula
+class Ots < Formula
 
   desc "Tablestore CLI"
   homepage "https://help.aliyun.com/zh/tablestore/developer-reference/download-the-tablestore-cli"
